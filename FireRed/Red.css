@@ -1,0 +1,28 @@
+body{
+    background-image: url(backfire.jpeg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(20px);
+    border: black;
+    border-width: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+    div{
+        display: flex;
+        gap: 0px;
+    }
+    .Orange{
+        color: orangered;
+    }
+    .Red{
+        color: red;
+    }
+}
